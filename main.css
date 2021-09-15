@@ -1,0 +1,14 @@
+body {
+  background: black;
+}
+#elzero {
+  color: aliceblue;
+  font-size: xx-large;
+  margin: 60px;
+}
+img {
+  display: flex;
+  align-items: center;
+  margin: 50px auto;
+  top: 50px;
+}
