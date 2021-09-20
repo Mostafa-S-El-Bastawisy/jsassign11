@@ -1,14 +1,98 @@
 body {
-  background: black;
+  background: white;
 }
 #elzero {
-  color: aliceblue;
+  color: black;
   font-size: xx-large;
   margin: 60px;
 }
 img {
   display: flex;
   align-items: center;
-  margin: 50px auto;
+  margin: 10px auto;
   top: 50px;
+  background-color: black;
+}
+
+input {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  width: 370px;
+}
+.result {
+  font-size: 37px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.one,
+.two {
+  font-size: xx-large;
+  margin-top: 20px;
+  margin: 20px auto;
+}
+form {
+  width: 700px;
+  max-width: 100%;
+  margin: 50px auto;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input,
+select {
+  display: block;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  width: 270px;
+  max-width: 100%;
+}
+
+select,
+input[type="submit"] {
+  width: 292px;
+  max-width: 100%;
+}
+
+input[type="submit"] {
+  background-color: #009483;
+  color: white;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #056e61;
+}
+
+.results {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  width: 100%;
+}
+
+.results .box {
+  margin: 20px;
+  color: white;
+  background-color: #ff5828;
+  padding: 10px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  text-align: center;
+  font-size: 1.3rem;
 }
